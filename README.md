@@ -1,4 +1,4 @@
-# Starter less-based template for small and medium sized projects
+# Starter less-based template 
 
 Includes:
 * Bootstrap grid, forms and responsive utilities 
