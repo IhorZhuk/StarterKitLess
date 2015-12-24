@@ -6,8 +6,8 @@
   url('@{font-folder}@{font-url}.woff') format('woff'), // Pretty Modern Browsers 
   url('@{font-folder}@{font-url}.ttf') format('truetype'), // Safari, Android, iOS 
   url('@{font-folder}@{font-url}.svg#@{font-name}') format('svg'); // Legacy iOS  
-  font-weight: normal;
-  font-style: normal;
+  font-weight: @font-weight;
+  font-style: @font-style;
 }
 
 .transition(@prop: all, @time: 0.3s, @ease: ease-in-out) {
